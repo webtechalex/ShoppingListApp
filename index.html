@@ -9,10 +9,16 @@
     <script src="https://kit.fontawesome.com/17be9efc7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<!-- better to suffix with container rather than prefix. -->
+<!-- Also be consistent in use of naming conventions -->
+<!-- kebab-case is conventional for html element class names, as you can see from the font-awesome classes -->
+<!-- so "shopping-list-input-container", for example-->
     <div id="containerShppingListInput">
+<!-- maybe this should be a heading of some sort, rather than a paragraph? -->
         <p>Shopping List</p>
 
         <input type="text" id="shoppingListInput" class="input">
+<!-- nitpick: watch out for random leading or trailing spaces like the one you have here. Remove it.-->
         <button id="addToListButton"><span><i class="fa-solid fa-angles-down"></i> Add to list</span></button>
     </div>
 
@@ -28,7 +34,7 @@
 
     <div id="recipesContainer"></div>
 
-
+<!-- nitpick: index.js is the conventional name for your javascript entrypoint these days -->
     <script src="code.js"></script>
 </body>
 </html>
