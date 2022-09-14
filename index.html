@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Receipe App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/17be9efc7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="containerShppingListInput">
+        <p>Shopping List</p>
+
+        <input type="text" id="shoppingListInput" class="input">
+        <button id="addToListButton"><span><i class="fa-solid fa-angles-down"></i> Add to list</span></button>
+    </div>
+
+    <div id="containerShoppingListDisplay">
+        <!--Shopping list-->
+    </div>
+
+    <div id="generateButtonDiv">
+        <p>Click the Generate button to explore recipes ideas based on you shopping list.</p>
+        <p id="notes"><i>You at least 10 items on your shopping list to use the Generate button. </i></p>
+        <button id="generateButton">Generate</button>
+    </div>
+
+    <div id="recipesContainer"></div>
+
+
+    <script src="code.js"></script>
+</body>
+</html>
